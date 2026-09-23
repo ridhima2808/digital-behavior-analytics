@@ -41,9 +41,24 @@ i_hours = i_hours.round(2)
 s_hours = s_hours.round(2)
 # i_boolean = [True if val >100 else False for val in diff] in python, output in boolean
 i_boolean = instagram>100 #output in boolean 
+iigreater = instagram[i_boolean]
 #i_greater = [bool_ for bool_ in boolean if bool_], this is filtering, i_greater will store only True
 #if there is an underscore after variable it means that the variable is a keyword and _ is used to avoid confusion.
 #i_greater = filter(lambda bool_ : bool_ , i_boolean)
 i_greater = instagram[instagram>100]
 print(f"igreater = {i_greater}")
 print(i_boolean)
+print(len(i_greater))
+print(iigreater)
+'''count = (instagram>100)
+print(count)
+count = count.sum()
+print(count)
+count = i_greater.sum()
+print(count)'''
+count = (instagram>100).sum()
+print(count)
+a = instagram[instagram>average_instagram]
+print(a)
+print(average_instagram)
+print(instagram)
